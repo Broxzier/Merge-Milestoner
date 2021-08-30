@@ -1,0 +1,9 @@
+name: 'Merge Milestoner'
+description: 'Automatically set the milestone when a PR gets merged.'
+inputs:
+  milestone:
+    description: 'Name of milestone to set'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
