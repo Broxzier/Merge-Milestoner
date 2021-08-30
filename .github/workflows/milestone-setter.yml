@@ -1,0 +1,14 @@
+name: Milestone setter
+
+on:
+  pull_request:
+    branches:
+    - master
+    types: [ closed ]
+
+jobs:
+  merge_job:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Broxzier/Merge-Milestoner@master
