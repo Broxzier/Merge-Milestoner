@@ -11,4 +11,4 @@ jobs:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - uses: Broxzier/Merge-Milestoner@master
+      - uses: Broxzier/Merge-Milestoner@v0.1
