@@ -12,3 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: Broxzier/Merge-Milestoner@master
+        with:
+          milestone: just-a-test-milestone
